@@ -1,0 +1,60 @@
+:root {
+  --orange: #ff7a00;
+  --dark: #1e1e1e;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--dark);
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  background: var(--orange);
+  color: white;
+  font-size: 26px;
+  font-weight: 800;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HERO */
+.hero {
+  min-height: 80vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(120deg, #ffffff, #fff3e6);
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: var(--orange);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.section {
+  padding: 80px 10%;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #fafafa;
+}
